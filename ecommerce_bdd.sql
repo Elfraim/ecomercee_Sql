@@ -44,3 +44,5 @@ CONSTRAINT fk_corders_client foreign key(idOrderClient) references  client(idCli
 );
 
 );
+
+SELECT FROM order where  orderStatus ='Eletrônico' having 'sendValue';
